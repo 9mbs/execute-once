@@ -1,0 +1,27 @@
+{
+  "name": "@hi-matbub/once",
+  "version": "1.0.1",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rm -rf ./dist && tsc",
+    "prepack": "npm run build && npm t",
+    "publish": "npm publish --access public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "@types/node": "^14.14.35",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
+}
