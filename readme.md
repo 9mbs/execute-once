@@ -1,6 +1,6 @@
 # @hi-matbub/once
 
-A function that executes once, and returns `undefined` on sequential calls.
+A function that executes once, and returns `undefined` on sequential calls. Learn how to build a scoped package yourself [here!](https://javascript.plainenglish.io/publish-a-scoped-package-to-npm-using-typescript-b36f2f7475c9)
 
 ## Setup
 
